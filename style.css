@@ -1,0 +1,66 @@
+body{
+    width: 900px;
+    margin: 0 auto;
+    background-color: rgb(192, 192, 192)
+
+}
+.container{
+
+    padding: 12px;
+    margin: 0 auto;
+    background-color: white;
+
+}
+header{
+    background-color: rgb(112, 128, 144);
+    margin: 0 auto;
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+}
+main header{
+    padding: 12px;
+    background-color: rgb(156, 156, 156);
+    color: black;
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    
+}
+main div{
+    margin: 0 2px;
+    width: 24%;
+    display: inline-block;
+    border: solid rgb(0, 0, 0) 1px;
+
+}
+div{
+    background-color: white;
+}
+@media only screen and (max-width: 600px) {
+   body{
+    width: auto
+
+   }
+    main div{
+        display:block;
+        margin: 0 auto;
+        width: 50%;
+    }
+    nav a{
+        margin: 0 12px;
+        display: block;
+    }
+  }
